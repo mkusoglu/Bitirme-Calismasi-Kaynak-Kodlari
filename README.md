@@ -12,17 +12,17 @@ Bir güne ait yukarıdaki bu parametrelerin değerleri verildi ve bir sonraki g�
 
 ## GEREKSİNİMLER
   '''
-  GetOldTweets3==0.0.11
-  keras==2.7.0
-  keras_nightly==2.5.0.dev2021032900
-  matplotlib==3.1.3
-  nltk==3.4.5
-  numpy==1.20.3
-  pandas==1.3.3
-  scikit_learn==1.0.1
-  snscrape==0.3.4
-  textblob==0.15.3
-  wordcloud==1.6.0
+  - GetOldTweets3==0.0.11
+  - keras==2.7.0
+  - keras_nightly==2.5.0.dev2021032900
+  - matplotlib==3.1.3
+  - nltk==3.4.5
+  - numpy==1.20.3
+  - pandas==1.3.3
+  - scikit_learn==1.0.1
+  - snscrape==0.3.4
+  - textblob==0.15.3
+  - wordcloud==1.6.0
   '''
 
 # VERİ TOPLAMA
