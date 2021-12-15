@@ -10,21 +10,6 @@ Bu çalışmada çeşitli yapay zekâ yöntemleriyle bir sonraki güne ait dövi
 
 Bir güne ait yukarıdaki bu parametrelerin değerleri verildi ve bir sonraki günün döviz kuru değeri tahmin edilmeye çalışıldı.Üç farklı yöntem kullanıldı, sonuçlar elde edinildi ve performansları karşılaştırıldı.
 
-## GEREKSİNİMLER
-  '''
-  - GetOldTweets3==0.0.11
-  - keras==2.7.0
-  - keras_nightly==2.5.0.dev2021032900
-  - matplotlib==3.1.3
-  - nltk==3.4.5
-  - numpy==1.20.3
-  - pandas==1.3.3
-  - scikit_learn==1.0.1
-  - snscrape==0.3.4
-  - textblob==0.15.3
-  - wordcloud==1.6.0
-  '''
-
 # VERİ TOPLAMA
 - Kullanılan her parametrenin için 1 Ocak 2013 tarihinden 1 Nisan 2021 tarihine kadar olan bütün değerleri toplanmıştır.
 - Döviz kuru olarak USD/TRY dövizi kullanıldı. 
@@ -64,6 +49,20 @@ En düşük MSE değerine sahip yapay sinir ağı modelinin sonuclari
 # SONUÇLARIN KARŞILAŞTIRILMASI
 ![image](https://user-images.githubusercontent.com/46621453/146274685-63ab5e90-3643-4008-9c60-6ca8cc8b06c8.png)
 ![image](https://user-images.githubusercontent.com/46621453/146274691-7bbbfba0-f0d8-4d24-9cca-dea7c6cc77ec.png)
+
+## GEREKSİNİMLER
+  - GetOldTweets3==0.0.11
+  - keras==2.7.0
+  - keras_nightly==2.5.0.dev2021032900
+  - matplotlib==3.1.3
+  - nltk==3.4.5
+  - numpy==1.20.3
+  - pandas==1.3.3
+  - scikit_learn==1.0.1
+  - snscrape==0.3.4
+  - textblob==0.15.3
+  - wordcloud==1.6.0
+
 
 
 
